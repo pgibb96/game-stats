@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package server;
 
-option go_package = "github.com/pgibb96/game-stats/proto";  // Add this line
+option go_package = "github.com/pgibb96/game-stats/proto";  // Set to your Go module path
 
 service MyService {
     rpc SayHello (HelloRequest) returns (HelloResponse);
